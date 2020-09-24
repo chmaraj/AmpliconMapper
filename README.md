@@ -24,5 +24,9 @@ Input a directory containing raw read files, a directory to output files to, a r
 Input a directory containing raw read files, a reference to map to, a directory to output files to, a custom primer file, and a number of threads to use. Runs a complete pipeline which first runs FastQC on raw reads, then trims adapters and custom primers from the amplicon PCR (and merges them if selected as an option in Run Illumina Reads). Reads are subsequently mapped to the reference, formatted, and displayed in Tablet. 
 
 *View in Tablet*
-Does exactly as the name suggests. Takes as input a mapped file and the associated reference used, and displays the corresponding mapping in Tablet. 
+Does exactly as the name suggests. Takes as input a mapped file and the associated reference used, and displays the corresponding mapping in Tablet.
+
+# Known Issues
+
+Due to the programming of BBTools Suite and its internal coding, the linux version of this application requires that inputs provided by the user must have absolute paths that lack any whitespace. If the input paths (reads, references, etc.) contain whitespace, the full pipeline will not run properly.
 
