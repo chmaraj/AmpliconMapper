@@ -2,7 +2,7 @@
 
 GUI for mapping amplicon sequence reads to a reference
 
-Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina or Ion Torrent sequencing services. Multiple options are available: Run FastQC, Quick Run, Map IonTorrent Reads, Map Illumina Reads, or View in Tablet.
+Offers a GUI for the sake of in-house analysis of raw sequence files (fastq.gz) from Illumina or Ion Torrent sequencing services. Multiple options are available: Run FastQC, Quick Run, Map IonTorrent Reads, Map Illumina Reads, or View in Tablet.
 
 # Dependencies:
 
